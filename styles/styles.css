@@ -88,9 +88,22 @@ text-align: center;
 .backgroundbox {
     width: 946px;
     background-color: grey;
-    margin: 0 auto;
+    margin: 852px auto 0 auto;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position: relative;
+   
+    
+}
+
+.containerbox {
+    background-color: azure;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+   
 }

@@ -84,39 +84,42 @@ text-align: center;
 
 
 /* Header bottom why development */
-
-.headerbottom {
-    position: absolute;
+main{
+    position: relative;
+    padding: 20px;
+}
+.box {
+    position: relative;
     width: 1140px;
     height: 1395px;
-    left: 148px;
+    left: 20%;
+    right: 20%;
     top: 857px;
-    background-color: rgba(13, 19, 33, 0.02); 
+    bottom: 2993px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px; /* distance inside the box*/
-    margin: 0 auto;
+    padding: 60px 90px;
+    border-radius: 1%;
+    background:  rgba(153, 154, 155, 0.5);
 }
-.headdesc{
-    justify-content: center;
+
+.firstbox{
+   margin-top: 24px;
 }
-.whydevelopment {
+
+.whydev{
+    margin-bottom: 32px;
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
-    line-height: 5px;
     text-align: center;
 }
-
-.developmentdescription {
+.devdesc {
     color: rgb(13, 19, 33);
+    opacity: 0.7;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
     text-align: center;
-    margin-top: 24px; 
-    width: 80%; 
 }

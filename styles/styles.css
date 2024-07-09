@@ -87,7 +87,7 @@ text-align: center;
 
 .backgroundbox {
     width: 946px;
-    background-color: grey;
+    background-color: rgb(241, 241, 241);
     margin: 852px auto 0 auto;
     padding: 20px;
     display: flex;
@@ -99,11 +99,40 @@ text-align: center;
 }
 
 .containerbox {
-    background-color: azure;
+    background-color: rgb(228, 228, 228);
     padding: 20px;
     display: flex;
     align-items: center;
     gap: 20px;
-    position: relative;
+    position: static;
+    font-display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: right;
+    
+
+}
+
+.containerbox h3 {
+    margin: 0;
+    margin-right: 0%;
    
+}
+
+.containerbox p {
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightside-image {
+    width: 150px;
+    
+}
+
+.textrect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }

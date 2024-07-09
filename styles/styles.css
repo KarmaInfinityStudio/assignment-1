@@ -1,1 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+/*Top Header Banner and Text start here */ 
+
+.banner-container {   
+position: absolute;
+width: 1440px;
+height: 652px;
+margin: 0 auto;
+left: 0;
+right: 0;
+top: 131px;
+bottom: 4462px;
+margin: top 20px;
+background-image: url(../images/Hero-bg.png); 
+
+}
+  /* Laptop boy icon */
+.laptopboy {
+  display: inline;
+  margin-top: 26px;
+  flex-direction: row;
+  margin-left: 599px;
+
+}
+
+/*header text and title */
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headertext > h2 {
+    color:rgb(13, 19, 33) ;
+    font-size: 48px;
+    font-weight: 800px;
+    text-align: center;
+}
+
+.headertext > p {
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font: weight 400px; ;
+    margin-top: 24px;
+}
+
+.contactme{
+    border-radius: 8px;
+    
+    background: rgb(13, 19, 33);
+   
+position: static;
+width: 208px;
+height: 66px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: white;
+border: none;
+margin: 32px 0;
+font-size: 20px;
+font-weight: 600px;
+text-align: center;
+
+}
+

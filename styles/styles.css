@@ -136,3 +136,69 @@ text-align: center;
     justify-content: center;
 
 }
+
+/*Here go the target-next target section*/
+
+section{
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba (0,0,0,0.1);
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.video-youtube{
+    text-align: center;
+    margin: 15px;
+}
+
+iframe{
+    border: none;
+    border-radius: 5px;
+}
+
+.smallboxgroup {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: width;
+    border: 2px red;
+}
+
+.smallbox {
+    background: peachpuff;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 200px;
+    max-width: 200px;
+    text-align: center;
+}
+
+h4 {
+    font-size:24px ;
+    margin-bottom: 10px;
+}
+
+.learnmore {
+    background-color: rgb(13, 19, 33);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.learnmore:hover {
+    background-color: #0056b3;
+}

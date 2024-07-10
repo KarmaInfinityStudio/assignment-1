@@ -87,7 +87,7 @@ text-align: center;
 
 .backgroundbox {
     width: 946px;
-    background-color: rgb(241, 241, 241);
+    background-color: rgba(13, 19, 33, 0.02);
     margin: 852px auto 0 auto;
     padding: 20px;
     display: flex;
@@ -99,7 +99,7 @@ text-align: center;
 }
 
 .containerbox {
-    background-color: rgb(228, 228, 228);
+    background-color:rgb(255, 255, 255);
     padding: 20px;
     display: flex;
     align-items: center;
@@ -123,8 +123,11 @@ text-align: center;
     margin: 10px 0 0 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
-
+.imagebox {
+    float: right;
+}
 .rightside-image {
     width: 150px;
     float: right;
@@ -141,9 +144,11 @@ text-align: center;
     float: right;
 }
 .textrect {
+    position: relative;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
 
 }
 
@@ -183,13 +188,35 @@ iframe{
 }
 
 .smallbox {
-    background: peachpuff;
+    background: rgba(255, 76, 30, 0.05);
     border-radius: 5%;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 20px;
     margin: 10px;
     flex: 1 1 200px;
-    max-width: 200px;
+    max-width: 364px;
+    text-align: center;
+}
+
+.smallbox1 {
+    background: rgba(0, 76, 232, 0.05);
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 200px;
+    max-width: 364px;
+    text-align: center;
+}
+
+.smallbox2 {
+    background: rgba(255, 223, 0, 0.05);
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 200px;
+    max-width: 364px;
     text-align: center;
 }
 
@@ -228,7 +255,7 @@ p {
 }
 
 .my-next-target {
-    background: peachpuff;
+    background: rgb(255, 255, 255);
     border-radius: 5%;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 20px;
@@ -236,4 +263,60 @@ p {
     flex: 1 1 200px;
     max-width: 1140px;
     text-align: ;
+}
+.support {
+    position: relative;
+    padding: 20px;
+    background-image: url(../images/handshake.jpg);
+}
+
+.support h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.support p {
+    margin-bottom: 20px;
+    font-size: 16px ;
+    text-align: center;
+}
+
+.support .support-form input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.support .support-form input {
+    padding: 10px;
+    border: none;
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* here the footer section challenge*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eaeaea;
+}
+
+.footer-text {
+    margin: 0;
+
+}
+
+.social-icons a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.social-icons img{
+    width: 24px;
+    height: 24px;
 }

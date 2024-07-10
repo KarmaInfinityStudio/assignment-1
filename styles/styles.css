@@ -106,7 +106,7 @@ text-align: center;
     gap: 20px;
     position: static;
     font-display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     justify-content: right;
     
@@ -127,9 +127,19 @@ text-align: center;
 
 .rightside-image {
     width: 150px;
+    float: right;
     
 }
 
+.leftimage {
+    width: 150px;
+    float: left;
+}
+
+.thirdimage {
+    width: 150px;
+    float: right;
+}
 .textrect {
     display: flex;
     flex-direction: column;
@@ -201,4 +211,29 @@ h4 {
 
 .learnmore:hover {
     background-color: #0056b3;
+}
+
+/* my next target section*/
+
+h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400px;
+    text-decoration:rgb(13, 19, 33) ;
+}
+
+.my-next-target {
+    background: peachpuff;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 200px;
+    max-width: 1140px;
+    text-align: ;
 }
